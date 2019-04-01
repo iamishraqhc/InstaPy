@@ -10,7 +10,9 @@ from instapy import set_workspace
 set_workspace(path=None)
 
 # get an InstaPy session!
-session = InstaPy()
+session = InstaPy(username="iamentrepreneurhaider",
+                  password="myth2011",
+                  headless_browser=True)
 
 with smart_run(session):
     """ Activity flow """
